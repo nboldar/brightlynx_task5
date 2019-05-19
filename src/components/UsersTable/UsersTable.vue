@@ -29,10 +29,6 @@
 
 <script>
 
-    import row from "./row.vue";
-
-    // let users = [];
-
     export default {
         name: 'UsersTable',
         props: {},
