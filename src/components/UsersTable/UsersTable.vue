@@ -46,9 +46,15 @@
             fetchData() {
                 this.error = this.users = null;
                 this.loading = true;
-                fetch('https://jsonplaceholder.typicode.com/users/')
+                fetch('http://localhost:4040/users/', {
+                    // mode: 'no-cors',
+                    headers: {
+                        'Access-Control-Allow-Origin':'*'
+                    }
+                })
                     .then((response) => {
                         this.loading = false;
+                        console.log(response);
                         return response.json();
                     })
                     .then((json) => {
