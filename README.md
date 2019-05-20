@@ -4,7 +4,10 @@
 ```
 npm install
 ```
-
+### Для запуска сервера и инициации бекэнд приложения 
+```
+npm run start
+```
 ### Для разработки фронтенд части поднять dev-сервер с перезагрузкой по факту изменений
 ```
 npm run serve
@@ -24,6 +27,5 @@ npm run test
 ```
 npm run lint
 ```
-
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

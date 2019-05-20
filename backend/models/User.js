@@ -1,5 +1,9 @@
 import db from '../db/db';
-//const db=require('../db/db');
+
+/**
+ *
+ * класс-модель сущности User
+ */
 export default class User {
     constructor(data) {
         if (!data) {
@@ -22,5 +26,3 @@ export default class User {
         }
     }
 }
-
-//export {User};

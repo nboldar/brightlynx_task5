@@ -3,7 +3,9 @@ import Router from 'koa-router';
 
 const usersRouter = new Router();
 const usersController = new UsersController();
-
+/**
+ * здесь мы прописывает роуты запросов
+ */
 usersRouter.get('/users/', async (ctx, next) => {
    await usersController.index(ctx);
 });
