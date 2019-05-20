@@ -1,26 +1,26 @@
 # brightlynx_task5
 
-## Project setup
+## Сразу после клонирования проекта
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Для разработки фронтенд части поднять dev-сервер с перезагрузкой по факту изменений
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Компиляция и минификация фронтенд части на продакшн
 ```
 npm run build
 ```
 
-### Run your tests
+### Запуск тестов
 ```
 npm run test
 ```
 
-### Lints and fixes files
+### Запуск линтования кода фронтенд
 ```
 npm run lint
 ```
